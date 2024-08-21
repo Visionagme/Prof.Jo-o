@@ -1,20 +1,20 @@
 body {
-    color: black;
-    background: aquamarine;
+    color: white;
+    background: black;
     margin: 0px;
-    font-family: "Gabriela", serif;
+    font-family: "Pixelify Sans", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 6px white;
-    padding: 30px;
-    font-size: 32px;
-    color: black;
+  border-bottom: solid 6px gold;
+  padding: 20px;
+  font-size: 32px;
+  color: white;
 }
 
 .chamada-texto {
-    margin-right: 50%;
+    margin-right: 5%;
 }
 
 h1 {
@@ -35,13 +35,13 @@ h1 {
     gap: 10px;
   }
 
-  .chamada {
-    background: aquamarine;
+  .chamada  {
+    background: rgb(105, 3, 3);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-  }
+}
 
   /* código omitido */
 
@@ -66,5 +66,5 @@ h1 {
 }
 
 .categoria h2 {
-    color: black;
+    color: white;
 }
