@@ -1,0 +1,70 @@
+body {
+    color: black;
+    background: aquamarine;
+    margin: 0px;
+    font-family: "Gabriela", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 6px white;
+    padding: 30px;
+    font-size: 32px;
+    color: black;
+}
+
+.chamada-texto {
+    margin-right: 50%;
+}
+
+h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .chamada {
+    background: aquamarine;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* código omitido */
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+  .categoria-videos img {
+    opacity: 0.4;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria h2 {
+    color: black;
+}
